@@ -7,7 +7,7 @@ def main():
     ########################################
     """
     for i in range(5):
-        numbers.append((input("Enter number: ")))
+        numbers.append(int(input("Enter number: ")))
         
     min = numbers[0]
     max = numbers[0]
