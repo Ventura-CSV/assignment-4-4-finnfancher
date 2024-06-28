@@ -15,6 +15,9 @@ def main():
     for i in range(1, 5):
         if(min > numbers[i]):
             min = numbers[i]
+        if(max < numbers[i]):
+            max = numbers[i]
+        
 
     print(numbers)
     print(max, min)
